@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: POPPINS;
+}
+.promo-bar {
+    background-color: #294456;
+    text-align: center;
+    height: 40px;
+    color: white;
+    padding: 8px;
+    
+}
+.top-nav {
+    height: 150px;
+    list-style: none;
+    margin: 0;
+    padding: 10px 20px;
+    background-image: linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.55),transparent);
+    transition: background-color .5s ease,background-image .5s ease;
+    text-align: right;
+    background-image: url(../images/kasamaheroimage.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+.menu {
+    text-align: right;
+    margin-top: 20px;
+    text-align: right;
+    align-items: right;
+}
+.menu-items {
+    font-size: 100%;
+    align-items: right;
+    
+}
+.container {
+    display: flex;
+}
+.nav-item {
+    list-style: none;
+    display: inline;
+    padding: 20px;
+    text-transform: uppercase;
+}
+.upper-nav {
+    text-align: right;
+    font-size: small
+}
+.center {
+    margin: auto;
+    width: 70%;
+}
+a {
+    text-decoration: none;
+    color: white;
+    padding: 1px;
+}
+hr.new1 {
+    border: .5px solid rgb(209, 209, 209);
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.box-button {
+    border: 1px solid white;
+    padding: 6px;
+    margin: 5px;
+}
+.padded {
+    padding: 0 20px;
+}
+@media (max-width: 500px) {
+    .padded {
+        padding: 16px;
+    }    
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: transparent;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    text-align: center;
+    cursor: pointer;
+}
+.hero-text button:hover {
+    background-color: white;
+    color: #294456
+}
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    padding: 10PX;
+}
+.TEXTBOX {
+    background: #294456;
+    color: white;
+    width: 430px;
+    height: 180px;
+    font-family: Poppins;
+    font-size: 90%;
+    padding: 20px;
+    padding-top: 20;
+    text-align: left;
+    margin-left: -30px;
+    margin-top: 25px;
+    margin-bottom: 10px;   
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffbc0f;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+.hours {
+    background-color: #294456;
+    height: 250px;
+    position: relative;
+    justify-content: center;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #294456;
+    color: white;
+    margin-top: 30px;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    flex-wrap: wrap;
+}
+.bottom-hero {
+    background-image: url(../images/bottom\ hero.png);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+.bottom-hero-text {
+    position: absolute;
+    color: white;
+    padding: 100px;
+}
+.bottom-hero-text button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: transparent;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    border: 2px solid white;
+    padding: 6px;
+    margin: 10px 0px;
+}
+.bottom-hero-text button:hover {
+     background-color: white;
+       color: #294456
+}
